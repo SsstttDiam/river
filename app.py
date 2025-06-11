@@ -36,4 +36,6 @@ if submitted:
     label = label_encoder.inverse_transform([prediction])[0]
 
     st.subheader("Hasil Prediksi:")
-    st.success(f"Kategori Pasien: {label}")
+    # Menggunakan st.info untuk sedikit perbedaan visualisasi, mirip st.success
+    # Anda bisa kembali ke st.success jika lebih suka.
+    st.info(f"Kategori Pasien: **{label}**")
