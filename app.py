@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Memuat model yang sudah dilatih untuk penyakit paru-paru
-model = joblib.load('paru_model.pkl')
+model = joblib.load('river.pkl')
 
 st.title("Prediksi Penyakit Paru-Paru")
 
