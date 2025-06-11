@@ -8,8 +8,6 @@ label_encoder = joblib.load('label_encoder.pkl')
 
 st.title("Prediksi Kategori Pasien Hepatitis")
 
-st.markdown("*Gunakan **titik (.)** sebagai pemisah desimal, bukan koma (,).*")
-
 # Form input
 with st.form("form_hepatitis"):
     st.header("Masukkan data pasien:")
